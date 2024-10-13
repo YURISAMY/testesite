@@ -1,0 +1,6 @@
+versão de backup:
+
+- Versão usando número de paginas igual a 30 podendo ajustar a quantidade de linhas;
+- A troca de página funciona;
+- filtro de multiplos município não funciona;
+- usa dados de um arquivo externo do github data.js
