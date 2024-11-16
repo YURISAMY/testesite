@@ -9,5 +9,11 @@ export default defineConfig({
     watch: {
       usePolling: true,
     },
+    cors: false, // Habilita CORS
+  },
+  resolve: {
+    alias: {
+      styles: './src/theme/styles.js',
+    },
   },
 });
