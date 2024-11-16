@@ -20,7 +20,9 @@ async function downloadFile(fileUrl) {
     const response = await axios.get(fileUrl, {
       responseType: 'blob',
       headers: {
-        'Accept': '*/*',
+        'Access-Control-Allow-Origin': '*',
+        'Access-Control-Allow-Headers': '*',
+        'Access-Control-Allow-Methods': '*',
         'Content-Type': 'text/csv', 
       },
     });
