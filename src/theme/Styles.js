@@ -1,6 +1,6 @@
 import { color } from "framer-motion";
 
-const styles = {
+const Styles = {
   global: {
     "html, body": {
       backgroundColor: "white",
@@ -73,4 +73,4 @@ const styles = {
   },
 };
 
-export default styles;
+export default Styles;

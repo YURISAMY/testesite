@@ -1,5 +1,5 @@
 import { extendTheme } from "@chakra-ui/react";
-import styles from "./styles.js";
+import Styles from "./styles";
 
 const config = {
   initialColorMode: "dark",
@@ -7,7 +7,7 @@ const config = {
 };
 
 const theme = extendTheme({
-  styles,
+  Styles,
   config,
 });
 
